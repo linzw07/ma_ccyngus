@@ -1,0 +1,27 @@
+.block-banner-right .banner-box .content { font-size: 14px !important;}
+    .product-view .actions { float: none !important;}
+    .select-lang:before { display: none !important;}
+    .block-subscribe input.input-text { width: 190px !important; margin-right: 0 !important;}
+    .related-product-title h2, .block .block-title strong { font-size: 16px !important;}
+    .email-friend { margin-top: 10px !important;}
+    .product-view #review-form input.input-text, .product-view #review-form textarea { width: 75% !important;}
+    .product-collateral .box-collateral .data-table th { font-size: 10px !important; padding: 5px 0 !important;}
+    .banner-static3 .banner-box .title-banner { font-size: 18px !important;}
+    
+    #sequence {height: 341px !important;}
+    #sequence > .sequence-canvas > li img { height: 80% !important; top: 10% !important; }
+    #sequence .title  { top: 36% !important; font-size: 23px;}
+    #sequence .title.slider2 { top: 39% !important; font-size: 22px;}
+    .subtitle.slider2 { top: 55% !important;}
+    .subtitle { font-size: 23px !important}
+    .actions .actions-inner { display: none !important;}
+  .featuredproductslider-item:hover .actions .actions-inner, .tab_content_new_arrivals2 .bx-wrapper .bxslider .item:hover .actions .actions-inner, .products-grid .item:hover .actions .actions-inner {  display: block !important}
+  
+  #sequence > .sequence-canvas li .model.slider2 {
+-webkit-transition-property: left, opacity;
+-moz-transition-property: left, opacity;
+-ms-transition-property: left, opacity;
+-o-transition-property: left, opacity;
+transition-property: left, opacity;
+}
+  #sequence > .sequence-canvas li .model.slider2 { left: 20%;}

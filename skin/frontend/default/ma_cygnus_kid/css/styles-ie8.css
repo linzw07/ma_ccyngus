@@ -1,0 +1,33 @@
+    .block-banner-right .banner-box .content { font-size: 14px !important;}
+    .product-view .actions { float: none !important;}
+    .select-lang:before { display: none !important;}
+    .block-subscribe input.input-text { width: 190px !important; margin-right: 0 !important;}
+    .related-product-title h2, .block .block-title strong { font-size: 16px !important;}
+    .email-friend { margin-top: 10px !important;}
+    .product-view #review-form input.input-text, .product-view #review-form textarea { width: 75% !important;}
+    .product-collateral .box-collateral .data-table th { font-size: 10px !important; padding: 5px 0 !important;}
+    .banner-static3 .banner-box { padding-left: 100px !important;}
+    .banner-static3 .banner-box1, .banner-static3 .banner-box2, .banner-static3 .banner-box3 { background-position: 20px 50% !important;}
+    .banner-static3 .banner-box .title-banner { font-size: 18px !important;}
+    .actions .actions-inner { display: none !important;}
+  .featuredproductslider-item:hover .actions .actions-inner, .tab_content_newarrivals .bx-wrapper .bxslider .item:hover .actions .actions-inner, .products-grid .item:hover .actions .actions-inner {  display: block !important}
+  #pt_custommenu .parentMenu a, .parentMenu .block-title { padding: 0 15px !important;}
+  #sequence { height: 341px !important;}
+  #sequence .title  { top: 36% !important}
+  #sequence .title.slider2 { top: 27% !important; font-size: 22px !important;}
+  .subtitle { font-size: 24px;}
+  .subtitle.slider2 { font-size: 22px;}
+  #sequence .animate-in .subtitle.slider2 {
+  right: 24% !important; }
+  
+  #sequence > .sequence-canvas li .title.slider2, #sequence > .sequence-canvas li .subtitle.slider2 {
+-webkit-transition-property: left, opacity;
+-moz-transition-property: left, opacity;
+-ms-transition-property: left, opacity;
+-o-transition-property: left, opacity;
+transition-property: left, opacity;
+}
+  #sequence .animate-in .subtitle.slider2, #sequence .animate-in .title.slider2 { left: 50% !important;}
+  #sequence .animate-in .title.slider2 { margin-left: 95px !important;}
+
+  

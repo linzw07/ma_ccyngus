@@ -1,0 +1,164 @@
+<?php
+$title = $this->getTitle();
+$identify = $this->getIdentify();
+$categoryIds = $this->getCatIds();
+$categoryId_explodes = explode(',', $categoryIds);
+$rootId =  Mage::app()->getStore()->getRootCategoryId();
+$category_model = Mage::getModel('catalog/category');
+$_category = $category_model->load($rootId); //$categoryid for which the child categories to be found        
+$all_child_categories = $category_model->getResource()->getAllChildren($_category); //array consisting of all child categories id
+$categoryIds = array();
+foreach($categoryId_explodes as $cate1) {
+	if(in_array($cate1,$all_child_categories)) {
+		$categoryIds[] = $cate1;
+	}
+}
+if(count($categoryIds)<1) return ; 
+$_helper = $this->helper('catalog/output');
+$productsOnRow = $this->getProductsOnRow();
+if(!$productsOnRow) $productsOnRow = 3;
+  				
+if ( !$this->getConfig('width_thumbnail') ){
+	$w_thumbnail = 135;
+} else {
+	$w_thumbnail = $this->getConfig('width_thumbnail');
+}
+if( !$this->getConfig('height_thumbnail') ){
+	$h_thumbnail = 135;
+ }
+else {
+	$h_thumbnail = $this->getConfig('height_thumbnail');
+}
+
+?>
+
+<?php
+
+        $item_width = Mage::getStoreConfig('categorytabsliders/categorytabsliders_config/item_width');
+        $items_show = Mage::getStoreConfig('categorytabsliders/categorytabsliders_config/items_show');
+        $speed = Mage::getStoreConfig('categorytabsliders/categorytabsliders_config/speed');
+        $interval = Mage::getStoreConfig('categorytabsliders/categorytabsliders_config/interval');
+        $nav_ctrl = Mage::getStoreConfig('categorytabsliders/categorytabsliders_config/nav_ctrl');
+        $next_back = Mage::getStoreConfig('categorytabsliders/categorytabsliders_config/next_back');
+        $show_price = Mage::getStoreConfig('categorytabsliders/categorytabsliders_config/show_price');
+        $review = Mage::getStoreConfig('categorytabsliders/categorytabsliders_config/show_review');
+		$title = $this->getTitle();
+?>
+
+		<div class="ma_categorytab_slider">
+			<div id="container">
+				<div class="title">
+					<?php 	echo '<h2>'.$title.'</h2>'; ?>
+					<ul class="tabs tabs<?php echo '-'.$identify;?>  tab_categorys"> 
+					 <?php 
+					      $k = 0;
+					      foreach($categoryIds as $cate_id) {
+						      $cate_model = Mage::getModel('catalog/category');
+						      $cateName = $cate_model->load($cate_id)->getName();
+						      
+						      if($cateName) {
+					 ?>
+							      <li class="<?php if($k==0){ echo "active"; }?>" rel="tab<?php echo $cate_id.'-'.$identify;?>"><?php  echo $cateName; ?></li>
+					      <?php }  $k++; } ?>
+					  </ul>
+				</div>
+			
+				<div class="tab_container"> 
+					<?php foreach($categoryIds as $cate_id) {
+					?>
+					 <div id="tab<?php echo $cate_id.'-'.$identify;?>" class="tab_content_<?php echo $identify; ?>"> 
+						<?php $_productCollection = $this->getProductCate($cate_id); ?>
+						<?php $_collectionSize = $_productCollection->count() ?>
+						<?php $_columnCount = $productsOnRow; ?>
+					<ul class="bxslider">	
+					<?php $i=0; foreach ($_productCollection as $_product): ?>
+					
+							<li class="item<?php if(($i-1)%$_columnCount==0): ?> first<?php elseif($i%$_columnCount==0): ?> last<?php endif; ?>">
+							<div class="image-container">
+								<a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->stripTags($this->getImageLabel($_product, 'small_image'), null, true) ?>" class="product-image"><img src="<?php echo $this->helper('catalog/image')->init($_product, 'small_image')->resize($w_thumbnail, $h_thumbnail); ?>" alt="<?php echo $this->htmlEscape($this->getImageLabel($_product, 'small_image')) ?>" /></a>
+								<div class="actions">
+									<div class="actions-inner">
+										<?php if($_product->isSaleable()): ?>
+											<button type="button" title="<?php echo $this->__('Add to Cart') ?>" class="button btn-cart" onclick="setLocation('<?php echo $this->getAddToCartUrl($_product) ?>')"><span><span><?php echo $this->__('Add to Cart') ?></span></span></button>
+										<?php else: ?>
+											<p class="availability out-of-stock"><span><?php echo $this->__('Out of stock') ?></span></p>
+										<?php endif; ?>
+										<ul class="add-to-links">
+											<?php if ($this->helper('wishlist')->isAllow()) : ?>
+												<li><a href="<?php echo $this->helper('wishlist')->getAddUrl($_product) ?>" title="<?php echo $this->__('Add to Wishlist') ?>" class="link-wishlist"><?php echo $this->__('Add to Wishlist') ?></a></li>
+											<?php endif; ?>
+											<?php if($_compareUrl=$this->getAddToCompareUrl($_product)): ?>
+												<li><span class="separator">|</span> <a href="<?php echo $_compareUrl ?>" title="<?php echo $this->__('Add to Compare') ?>" class="link-compare"><?php echo $this->__('Add to Compare') ?></a></li>
+											<?php endif; ?>
+										</ul>
+									</div>
+									
+								</div>
+							</div>
+								
+								<h2 class="product-name"><a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->stripTags($_product->getName(), null, true) ?>"><?php echo $_helper->productAttribute($_product, $_product->getName(), 'name') ?></a></h2>
+								<?php if($review) { ?>
+								<?php echo $this->getReviewsSummaryHtml($_product, 'short') ?>
+								<?php } ?>
+								<?php echo $this->getPriceHtml($_product, true) ?>
+								
+							</li>
+						
+						
+						<?php endforeach ?>
+						</ul>		
+						<script type="text/javascript">
+									$jq(document).ready(function(){
+										<?php $idBx = '#tab'.$cate_id.'-'.$identify.' .bxslider'; ?>
+									  $jq("<?php echo $idBx; ?>").bxSlider(
+										{
+										  speed: <?php echo $speed; ?>,
+										  pause: <?php echo $interval; ?>,			  
+										  minSlides: 1,
+										  infiniteLoop:false,
+										  maxSlides: <?php echo $items_show ?>,
+										  slideWidth: <?php echo $item_width ?>,
+										  slideMargin: 5,
+										<?php if ($nav_ctrl) { ?>
+										  pager: true,
+										<?php } else { ?> 
+										  pager:false, 
+										<?php } ?>
+										<?php if ($next_back) { ?>
+											controls: true,
+										<?php } else { ?>
+											controls:false
+										<?php } ?>
+										}
+									  );
+									});
+								</script>
+					 </div><!-- #tab1 -->
+					 <?php }?>
+			
+					 
+				 </div> <!-- .tab_container --> 
+			
+			</div> <!-- #container -->
+		</div>
+
+
+
+<script type="text/javascript">
+
+$jq(document).ready(function() {
+	
+	$jq(".tab_content_<?php echo $identify; ?>").hide();
+	$jq(".tab_content_<?php echo $identify; ?>:first").show(); 
+
+	$jq("ul.tabs<?php echo '-'.$identify;?> li").click(function() {
+		$jq("ul.tabs<?php echo '-'.$identify;?> li").removeClass("active");
+		$jq(this).addClass("active");
+		$jq(".tab_content_<?php echo $identify; ?>").hide();
+		var activeTab = $jq(this).attr("rel"); 
+		$jq("#"+activeTab).fadeIn(); 
+	});
+});
+
+</script>
+
