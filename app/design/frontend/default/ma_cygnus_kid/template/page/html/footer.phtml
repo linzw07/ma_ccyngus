@@ -30,10 +30,16 @@
         <div class="container">
         
             <div class="footer-static row-fluid">
+            <?php  $language_code = Mage::app()->getLocale()->getLocaleCode(); ?>
+                <?php  if($language_code === "en_US"): ?>
                 <?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('footer_static')->toHtml() ?>
             </div>
                 <?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('footer_static_2')->toHtml() ?>
-
+               <?php else: ?>
+                       <?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('footer_static_cn')->toHtml() ?>
+            </div>
+                <?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('footer_static_2_cn')->toHtml() ?>
+               <?php endif; ?>
             <div class="footer">
                 <address><?php echo $this->getCopyright() ?></address>
                 <?php echo $this->getChildHtml() ?>

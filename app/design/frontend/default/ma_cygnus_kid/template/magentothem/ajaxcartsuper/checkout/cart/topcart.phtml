@@ -13,7 +13,7 @@
           <!--<span class="top-cart-icon"></span>-->
                 <span class="top-cart-title">
                     <!--<span>Shopping Cart</span><br/>-->
-                    <span>Shopping Cart -</span>
+                    <span><?php echo $this->__("Shopping Cart"); ?> -</span>
                     <p><span> <?php echo Mage::helper('checkout')->formatPrice($this->getSubtotal()) ?>
                     <a href="<?php echo $this->getUrl('checkout/cart')?>">
                         <?php  
