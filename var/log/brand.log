@@ -322,3 +322,1785 @@
 
 )
 
+2015-04-28T14:17:28+00:00 DEBUG (7): Array
+(
+    [0] => Array
+        (
+            [brandslider_id] => 1
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [1] => Array
+        (
+            [brandslider_id] => 2
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [2] => Array
+        (
+            [brandslider_id] => 3
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [3] => Array
+        (
+            [brandslider_id] => 4
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [4] => Array
+        (
+            [brandslider_id] => 5
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [5] => Array
+        (
+            [brandslider_id] => 6
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [6] => Array
+        (
+            [brandslider_id] => 7
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+)
+
+2015-04-28T14:17:43+00:00 DEBUG (7): Array
+(
+    [0] => Array
+        (
+            [brandslider_id] => 1
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [1] => Array
+        (
+            [brandslider_id] => 2
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [2] => Array
+        (
+            [brandslider_id] => 3
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [3] => Array
+        (
+            [brandslider_id] => 4
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [4] => Array
+        (
+            [brandslider_id] => 5
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [5] => Array
+        (
+            [brandslider_id] => 6
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [6] => Array
+        (
+            [brandslider_id] => 7
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+)
+
+2015-04-28T14:18:32+00:00 DEBUG (7): Array
+(
+    [0] => Array
+        (
+            [brandslider_id] => 1
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [1] => Array
+        (
+            [brandslider_id] => 2
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [2] => Array
+        (
+            [brandslider_id] => 3
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [3] => Array
+        (
+            [brandslider_id] => 4
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [4] => Array
+        (
+            [brandslider_id] => 5
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [5] => Array
+        (
+            [brandslider_id] => 6
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [6] => Array
+        (
+            [brandslider_id] => 7
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+)
+
+2015-04-28T14:21:42+00:00 DEBUG (7): Array
+(
+    [0] => Array
+        (
+            [brandslider_id] => 1
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 10,1,2
+        )
+
+    [1] => Array
+        (
+            [brandslider_id] => 2
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [2] => Array
+        (
+            [brandslider_id] => 3
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 10,1,2
+        )
+
+    [3] => Array
+        (
+            [brandslider_id] => 4
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [4] => Array
+        (
+            [brandslider_id] => 5
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [5] => Array
+        (
+            [brandslider_id] => 6
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [6] => Array
+        (
+            [brandslider_id] => 7
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+)
+
+2015-04-28T14:23:32+00:00 DEBUG (7): Array
+(
+    [0] => Array
+        (
+            [brandslider_id] => 1
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 10,1,2
+        )
+
+    [1] => Array
+        (
+            [brandslider_id] => 2
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [2] => Array
+        (
+            [brandslider_id] => 3
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 10,1,2
+        )
+
+    [3] => Array
+        (
+            [brandslider_id] => 4
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [4] => Array
+        (
+            [brandslider_id] => 5
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [5] => Array
+        (
+            [brandslider_id] => 6
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [6] => Array
+        (
+            [brandslider_id] => 7
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+)
+
+2015-04-28T14:23:40+00:00 DEBUG (7): Array
+(
+    [0] => Array
+        (
+            [brandslider_id] => 1
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 10,1,2
+        )
+
+    [1] => Array
+        (
+            [brandslider_id] => 2
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [2] => Array
+        (
+            [brandslider_id] => 3
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 10,1,2
+        )
+
+    [3] => Array
+        (
+            [brandslider_id] => 4
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [4] => Array
+        (
+            [brandslider_id] => 5
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [5] => Array
+        (
+            [brandslider_id] => 6
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [6] => Array
+        (
+            [brandslider_id] => 7
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+)
+
+2015-04-28T14:23:46+00:00 DEBUG (7): Array
+(
+    [0] => Array
+        (
+            [brandslider_id] => 1
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 10,1,2
+        )
+
+    [1] => Array
+        (
+            [brandslider_id] => 2
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [2] => Array
+        (
+            [brandslider_id] => 3
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 10,1,2
+        )
+
+    [3] => Array
+        (
+            [brandslider_id] => 4
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [4] => Array
+        (
+            [brandslider_id] => 5
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [5] => Array
+        (
+            [brandslider_id] => 6
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [6] => Array
+        (
+            [brandslider_id] => 7
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+)
+
+2015-04-28T14:26:44+00:00 DEBUG (7): Array
+(
+    [0] => Array
+        (
+            [brandslider_id] => 1
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 10,1,2
+        )
+
+    [1] => Array
+        (
+            [brandslider_id] => 2
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [2] => Array
+        (
+            [brandslider_id] => 3
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 10,1,2
+        )
+
+    [3] => Array
+        (
+            [brandslider_id] => 4
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [4] => Array
+        (
+            [brandslider_id] => 5
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [5] => Array
+        (
+            [brandslider_id] => 6
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [6] => Array
+        (
+            [brandslider_id] => 7
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+)
+
+2015-04-28T14:27:16+00:00 DEBUG (7): Array
+(
+    [0] => Array
+        (
+            [brandslider_id] => 1
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 10,1,2
+        )
+
+    [1] => Array
+        (
+            [brandslider_id] => 2
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [2] => Array
+        (
+            [brandslider_id] => 3
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 10,1,2
+        )
+
+    [3] => Array
+        (
+            [brandslider_id] => 4
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [4] => Array
+        (
+            [brandslider_id] => 5
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [5] => Array
+        (
+            [brandslider_id] => 6
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [6] => Array
+        (
+            [brandslider_id] => 7
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+)
+
+2015-04-28T14:34:44+00:00 DEBUG (7): Array
+(
+    [0] => Array
+        (
+            [brandslider_id] => 1
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 10,1,2
+        )
+
+    [1] => Array
+        (
+            [brandslider_id] => 2
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [2] => Array
+        (
+            [brandslider_id] => 3
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 10,1,2
+        )
+
+    [3] => Array
+        (
+            [brandslider_id] => 4
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [4] => Array
+        (
+            [brandslider_id] => 5
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [5] => Array
+        (
+            [brandslider_id] => 6
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [6] => Array
+        (
+            [brandslider_id] => 7
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+)
+
+2015-04-28T14:34:48+00:00 DEBUG (7): Array
+(
+    [0] => Array
+        (
+            [brandslider_id] => 1
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 10,1,2
+        )
+
+    [1] => Array
+        (
+            [brandslider_id] => 2
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [2] => Array
+        (
+            [brandslider_id] => 3
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 10,1,2
+        )
+
+    [3] => Array
+        (
+            [brandslider_id] => 4
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [4] => Array
+        (
+            [brandslider_id] => 5
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [5] => Array
+        (
+            [brandslider_id] => 6
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [6] => Array
+        (
+            [brandslider_id] => 7
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+)
+
+2015-04-28T14:35:48+00:00 DEBUG (7): Array
+(
+    [0] => Array
+        (
+            [brandslider_id] => 1
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 10,1,2
+        )
+
+    [1] => Array
+        (
+            [brandslider_id] => 2
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [2] => Array
+        (
+            [brandslider_id] => 3
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 10,1,2
+        )
+
+    [3] => Array
+        (
+            [brandslider_id] => 4
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [4] => Array
+        (
+            [brandslider_id] => 5
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [5] => Array
+        (
+            [brandslider_id] => 6
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [6] => Array
+        (
+            [brandslider_id] => 7
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+)
+
+2015-04-28T14:40:54+00:00 DEBUG (7): Array
+(
+    [0] => Array
+        (
+            [brandslider_id] => 1
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 10,1,2
+        )
+
+    [1] => Array
+        (
+            [brandslider_id] => 2
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [2] => Array
+        (
+            [brandslider_id] => 3
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 10,1,2
+        )
+
+    [3] => Array
+        (
+            [brandslider_id] => 4
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [4] => Array
+        (
+            [brandslider_id] => 5
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [5] => Array
+        (
+            [brandslider_id] => 6
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [6] => Array
+        (
+            [brandslider_id] => 7
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+)
+
+2015-04-28T14:55:10+00:00 DEBUG (7): Array
+(
+    [0] => Array
+        (
+            [brandslider_id] => 1
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 10,1,2
+        )
+
+    [1] => Array
+        (
+            [brandslider_id] => 2
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [2] => Array
+        (
+            [brandslider_id] => 3
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 10,1,2
+        )
+
+    [3] => Array
+        (
+            [brandslider_id] => 4
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [4] => Array
+        (
+            [brandslider_id] => 5
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [5] => Array
+        (
+            [brandslider_id] => 6
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [6] => Array
+        (
+            [brandslider_id] => 7
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+)
+
+2015-04-28T14:57:55+00:00 DEBUG (7): Array
+(
+    [0] => Array
+        (
+            [brandslider_id] => 1
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 10,1,2
+        )
+
+    [1] => Array
+        (
+            [brandslider_id] => 2
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [2] => Array
+        (
+            [brandslider_id] => 3
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 10,1,2
+        )
+
+    [3] => Array
+        (
+            [brandslider_id] => 4
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [4] => Array
+        (
+            [brandslider_id] => 5
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [5] => Array
+        (
+            [brandslider_id] => 6
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [6] => Array
+        (
+            [brandslider_id] => 7
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+)
+
+2015-04-28T15:13:39+00:00 DEBUG (7): Array
+(
+    [0] => Array
+        (
+            [brandslider_id] => 1
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 10,1,2
+        )
+
+    [1] => Array
+        (
+            [brandslider_id] => 2
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [2] => Array
+        (
+            [brandslider_id] => 3
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 10,1,2
+        )
+
+    [3] => Array
+        (
+            [brandslider_id] => 4
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [4] => Array
+        (
+            [brandslider_id] => 5
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [5] => Array
+        (
+            [brandslider_id] => 6
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [6] => Array
+        (
+            [brandslider_id] => 7
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+)
+
+2015-04-29T09:50:30+00:00 DEBUG (7): Array
+(
+    [0] => Array
+        (
+            [brandslider_id] => 1
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 10,1,2
+        )
+
+    [1] => Array
+        (
+            [brandslider_id] => 2
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [2] => Array
+        (
+            [brandslider_id] => 3
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 10,1,2
+        )
+
+    [3] => Array
+        (
+            [brandslider_id] => 4
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [4] => Array
+        (
+            [brandslider_id] => 5
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [5] => Array
+        (
+            [brandslider_id] => 6
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [6] => Array
+        (
+            [brandslider_id] => 7
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+)
+
+2015-04-29T09:50:37+00:00 DEBUG (7): Array
+(
+    [0] => Array
+        (
+            [brandslider_id] => 1
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 10,1,2
+        )
+
+    [1] => Array
+        (
+            [brandslider_id] => 2
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [2] => Array
+        (
+            [brandslider_id] => 3
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 10,1,2
+        )
+
+    [3] => Array
+        (
+            [brandslider_id] => 4
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [4] => Array
+        (
+            [brandslider_id] => 5
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [5] => Array
+        (
+            [brandslider_id] => 6
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [6] => Array
+        (
+            [brandslider_id] => 7
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+)
+
+2015-04-29T09:50:46+00:00 DEBUG (7): Array
+(
+    [0] => Array
+        (
+            [brandslider_id] => 1
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 10,1,2
+        )
+
+    [1] => Array
+        (
+            [brandslider_id] => 2
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [2] => Array
+        (
+            [brandslider_id] => 3
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 10,1,2
+        )
+
+    [3] => Array
+        (
+            [brandslider_id] => 4
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [4] => Array
+        (
+            [brandslider_id] => 5
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [5] => Array
+        (
+            [brandslider_id] => 6
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [6] => Array
+        (
+            [brandslider_id] => 7
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+)
+
+2015-04-29T09:54:21+00:00 DEBUG (7): Array
+(
+    [0] => Array
+        (
+            [brandslider_id] => 1
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 10,1,2
+        )
+
+    [1] => Array
+        (
+            [brandslider_id] => 2
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [2] => Array
+        (
+            [brandslider_id] => 3
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 10,1,2
+        )
+
+    [3] => Array
+        (
+            [brandslider_id] => 4
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [4] => Array
+        (
+            [brandslider_id] => 5
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [5] => Array
+        (
+            [brandslider_id] => 6
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [6] => Array
+        (
+            [brandslider_id] => 7
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+)
+
+2015-04-29T09:56:55+00:00 DEBUG (7): Array
+(
+    [0] => Array
+        (
+            [brandslider_id] => 1
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 10,1,2
+        )
+
+    [1] => Array
+        (
+            [brandslider_id] => 2
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [2] => Array
+        (
+            [brandslider_id] => 3
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 10,1,2
+        )
+
+    [3] => Array
+        (
+            [brandslider_id] => 4
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [4] => Array
+        (
+            [brandslider_id] => 5
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [5] => Array
+        (
+            [brandslider_id] => 6
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [6] => Array
+        (
+            [brandslider_id] => 7
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+)
+
+2015-04-29T09:57:04+00:00 DEBUG (7): Array
+(
+    [0] => Array
+        (
+            [brandslider_id] => 1
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 10,1,2
+        )
+
+    [1] => Array
+        (
+            [brandslider_id] => 2
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [2] => Array
+        (
+            [brandslider_id] => 3
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 10,1,2
+        )
+
+    [3] => Array
+        (
+            [brandslider_id] => 4
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [4] => Array
+        (
+            [brandslider_id] => 5
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [5] => Array
+        (
+            [brandslider_id] => 6
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+    [6] => Array
+        (
+            [brandslider_id] => 7
+            [title] => 
+            [link] => 
+            [description] => 
+            [image] => <img src="http://192.168.1.18/magento1810/ma_cygnus/media/magentothem/brandslider/logo1.png" width="150" height="100px" alt="" />
+            [status] => 1
+            [store_ids] => 1,2
+        )
+
+)
+
