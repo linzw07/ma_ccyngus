@@ -29,7 +29,7 @@
 <?php if($_product->isSaleable()): ?>
     <div class="add-to-cart">
         <?php if(!$_product->isGrouped()): ?>
-        <label for="qty"><?php echo $this->__('Quantity:') ?></label>
+        <label for="qty"><?php echo $this->__('Quantity').':' ?></label>
         <input type="text" name="qty" id="qty" maxlength="12" value="<?php echo $this->getProductDefaultQty() * 1 ?>" title="<?php echo $this->__('Qty') ?>" class="input-text qty" />
         <div class="qty-button">
             <input type="button" onclick="var qty_el = document.getElementById('qty'); var qty = qty_el.value; if( !isNaN( qty )) qty_el.value++;return false;" class="qty-increase" />
