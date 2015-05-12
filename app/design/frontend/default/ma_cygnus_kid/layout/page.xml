@@ -112,6 +112,8 @@ Default layout, loads most of the pages
             <block type="core/text_list" name="home_banner_static2" as="home_banner_static2" translate="label" />
             <block type="core/text_list" name="ma_onsale" as="ma_onsale" translate="label" />
             <block type="core/text_list" name="ma_brand" as="ma_brand" translate="label" />
+            <block type="core/text_list" name="tom_custom_brand" as="tom_custom_brand" translate="label" />
+            <block type="core/text_list" name="tom_custom_brand1" as="tom_custom_brand1" translate="label" />
             <block type="core/text_list" name="footer_static" as="footer_static" translate="label" />
 
             <block type="core/text_list" name="left" as="left" translate="label">

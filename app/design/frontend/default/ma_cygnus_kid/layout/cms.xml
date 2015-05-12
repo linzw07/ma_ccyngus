@@ -71,6 +71,12 @@ Default layout, loads most of the pages
          <reference name="ma_brand">
             <block type="page/html" name="tab.product" template="magentothem/tab_product.phtml" before="-"/>
         </reference>
+        <reference name="tom_custom_brand">
+            <block type="page/html" name="tom.custom.brand" template="magentothem/tom_custom_brand.phtml" before="-"/>
+        </reference>
+        <reference name="tom_custom_brand1">
+            <block type="page/html" name="tom.custom.brand1" template="magentothem/tom_custom_brand1.phtml" before="-"/>
+        </reference>
         <remove name="catalog.compare.sidebar"/>
         <remove name="tags_popular"/>
         <remove name="ma.verticalmenuright"/>
