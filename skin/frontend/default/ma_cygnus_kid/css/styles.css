@@ -2425,7 +2425,7 @@ tr.summary-details-excluded { font-style:italic; }
 	bottom: 10px;
     right: 12px;
     width: 50px;
-    height: 50px;
+    height: 80px;
     display: none;
     z-index: 9999;
 }
@@ -2726,6 +2726,17 @@ tr.summary-details-excluded { font-style:italic; }
 	font-weight: normal;
 	color: #212121;
 }
+
+
+
+
+/********Start customise********/
+.product-att{padding: 1px 10px;font-size: 13px;text-transform: capitalize; }
+#animate_sidebar{width:20px;position:fixed; top:50%;left:0%;z-index:100}
+ul.tabs-product-tab3 li {
+    font-size:25px ;
+}
+/********End of customise********/
 /*=====================================================================================================================*/
 .ma-demo-wrap .control.active { background-color: #83c55f}
 /*ajax-supper*/

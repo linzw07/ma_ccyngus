@@ -26,13 +26,22 @@
 ?>
 <?php /* @var $this Mage_Catalog_Block_Product_View_Abstract */?>
 <?php $_product = $this->getProduct() ?>
+<?php $productBand = $_product->getAttributeText('manufacturer'); ?>
+<?php $productWeight = $_product->getWeight(); ?>
+<?php $stock = Mage::getModel('cataloginventory/stock_item')->loadByProduct($_product); ?>
 <?php echo $this->getPriceHtml($_product) ?>
 <?php if ($this->displayProductStockStatus()): ?>
     <?php if ($_product->isAvailable()): ?>
-        <p class="availability in-stock"><?php echo $this->__('Availability:') ?> <span><?php echo $this->__('In stock') ?></span></p>
+        <p class="availability in-stock"><?php echo $this->__('Availability:') ?> <span><?php echo $this->__('In stock') ?> &nbsp; <?php echo number_format($stock->getQty(),0); ?></span></p>
     <?php else: ?>
         <p class="availability out-of-stock"><?php echo $this->__('Availability:') ?> <span><?php echo $this->__('Out of stock') ?></span></p>
     <?php endif; ?>
+    <?php if($productBand):?>
+           <p class="product-att">商品品牌： <?php echo $productBand ; ?></p>
+     <?php  endif; ?>
+    <?php if($productWeight):?>
+           <p class="product-att">商品重量: <?php echo number_format($productWeight,0) ; ?>千克</p>
+     <?php  endif; ?>
 <?php endif; ?>
 <?php echo $this->getChildHtml('product_type_data_extra') ?>
 
