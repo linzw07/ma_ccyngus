@@ -1,0 +1,205 @@
+<?php if(   $configValue = Mage::getStoreConfig('webfrnd_dailydeal_options/general/module_enable', Mage::app()->getStore() )      ) : ?>
+<!--Daily Deal Code-->
+<?php $_product = $this->getProduct(); ?>
+
+<?php $currentCurrencySymbol =  Mage::app()->getLocale()->currency(Mage::app()->getStore()->getCurrentCurrencyCode())->getSymbol()  ?>
+
+<?php $groupDealDateEnd = $_product->getSpecialToDate() ?>
+ 
+<?php $mydate = date('M d, Y 23:59:59', strtotime($groupDealDateEnd)) ?> 
+
+<?php $groupDealSpecialPrice = $_product->getSpecialPrice() ?>
+ 
+<?php $groupPrice = $_product->getPrice() ?>
+ 
+<?php $formattedPrice = number_format($groupPrice, 2) ?>
+ 
+<?php //Geting Discount Amoutn ?>
+ 
+<?php $groupDiscount = ($groupDealSpecialPrice / $groupPrice)?>
+ 
+<?php $groupDiscount = $groupDiscount * 100 ?>
+ 
+<?php $finalGroupDiscount = number_format($groupDiscount, 0)?>
+
+<?php //Getting Savings Amount ?>
+ 
+<?php $groupSavings = ($groupPrice - $groupDealSpecialPrice) ?>
+ 
+<?php //Number Left to Get Deal ?>
+ 
+<?php  $groupInvAmt = (int)Mage::getModel('cataloginventory/stock_item')->loadByProduct($_product)->getQty();?>
+ 
+<?php  $groupDealNumber =$_product->getGroupDealNumberForDeal ?>
+ 
+<?php $groupDealLeft = $groupInvAmt - $groupDealNumber ?>
+
+<?php if ( $groupDealSpecialPrice && $groupDealDateEnd && ((strtotime($mydate) - strtotime(date("Y-m-d h:i:s"))) >0) ) : ?>
+
+<style>
+
+/* Daily Deal CSS */
+
+#groupbuy {
+position: relative;
+margin-top: 20px;
+font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
+}
+ 
+#groupbuy-hdr {
+
+background: #9b1818; /* Old browsers */
+background: -moz-linear-gradient(top,  #9b1818 0%, #d62a2a 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#9b1818), color-stop(100%,#d62a2a)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #9b1818 0%,#d62a2a 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #9b1818 0%,#d62a2a 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #9b1818 0%,#d62a2a 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #9b1818 0%,#d62a2a 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9b1818', endColorstr='#d62a2a',GradientType=0 ); /* IE6-9 */
+border-radius:7px 7px 0 0;
+color: white;
+}
+
+#grp-buy-name {
+font-weight: 700;
+font-size: 20px;
+text-align: center;
+padding:10px;
+}
+
+.groupbuy-retail {
+padding:10px;
+float: left;
+text-align: center;
+font-weight:700;
+font-size:13px;
+width:33%;
+}
+
+#groupbuy-countdown {
+text-align: center;
+font-weight:700;
+font-size:18px;
+margin: 10px;
+color: #c01c1d;
+}
+
+#groupbuy-countdown > span {
+	background:#000;
+	color:#FFF;
+	width:60px;
+	padding:5px 0;
+	display: inline-block;
+}
+
+#groupbuy-countdown .spn {
+	background:#ffffff;
+	color:#444444;
+	font-size:10px;	
+	
+}
+
+#groupbuy-number-sold {
+text-align: center;
+padding:5px;
+/*border:1px solid #ff00ff;*/
+}
+span#DealAmount {
+font-size: 18px;
+font-weight: bold;
+color:#FF0000;
+}
+
+.pad5{ padding:5px;}
+.clear{ clear:both;}
+</style>
+
+<script type="text/javascript">// <![CDATA[
+function Countdown(then) {
+ 
+  this.then = then;
+  
+
+  function setElement(id, value) {
+    if (value.toString().length < 2) {
+        value = "0" + value;
+    }
+ 
+    window.document.getElementById(id).innerHTML = value;
+  }
+ 
+  function countdown() {
+	now       = new Date();
+    diff      = new Date(this.then - now);
+    seconds_left  = Math.floor(diff.valueOf() / 1000);
+ 
+    seconds  = Math.floor(seconds_left / 1) % 60;
+    minutes  = Math.floor(seconds_left / 60) % 60;
+    hours    = Math.floor(seconds_left / 3600) % 24;
+    days     = Math.floor(seconds_left / 86400) % 86400;
+ 
+    setElement('countdown-days', days);
+    setElement('countdown-hours', hours);
+    setElement('countdown-minutes', minutes);
+    setElement('countdown-seconds', seconds);
+ 
+    countdown.timer = setTimeout(countdown, 1000);
+  }
+ 
+  function start() {
+    this.timer = setTimeout(countdown, 1000);
+  }
+ 
+  start(then);
+ }
+ 
+ Countdown(new Date("<?php echo $mydate; ?>"));
+// ]]></script>
+<div id="groupbuy">
+<div id="groupbuy-hdr">
+<div id="grp-buy-name">Deal</div>
+<div class="groupbuy-retail">Value  
+<div id="groupbuy-retail"><?php echo $currentCurrencySymbol.$formattedPrice ?></div>
+ 
+</div>
+<div class="groupbuy-retail">Discount 
+ 
+<div id="groupbuy-discount-percent"><?php echo 100 - $finalGroupDiscount ?>%</div>
+ 
+</div>
+
+<div class="groupbuy-retail">Savings 
+ 
+<div id="groupbuy-savings-price"><?php echo $currentCurrencySymbol.$groupSavings ?></div>
+ 
+</div>
+
+<div class="clear"></div>
+</div>
+
+<div id="groupbuy-countdown">Time Left To Get Discount
+<div class="clear pad5"></div>
+<span id="countdown-days"></span>
+<span id="countdown-hours"></span>
+<span id="countdown-minutes"></span>
+<span id="countdown-seconds"> </span>
+<div class="clear"></div>
+<span class="spn">Days</span>
+<span class="spn">Hours</span>
+<span class="spn">Min</span>
+<span class="spn">Sec</span>
+<div class="clear"></div>
+ </div>
+
+<div id="groupbuy-number-sold">Hurry there are only: <span id="DealAmount"><?php echo $groupDealLeft ?> item(s)</span> left
+</div>
+
+<!--<span id="how-it-wrks"><a href="/group-deal"><?php echo strtotime($groupDealDateEnd) - strtotime(date("Y-m-d h:i:s")) ?></a></span>-->
+ 
+</div>
+
+<?php endif; ?>
+
+
+
+<?php endif; ?>

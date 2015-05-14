@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<layout>
+    <default>
+    </default>
+    <cms_index_defaultindex>
+        <reference name="content">
+            <block type="catalog/product" name="webfrnd_dailydeals_specialpricedproducts_view_before" before="-">
+                <action method="setTemplate" ifconfig="webfrnd_dailydeal_options/general/display_on_homepage_before">
+                    <template>webfrnd/dailydeals/product-deallist.phtml</template>
+                </action>
+            </block>
+        </reference>
+    </cms_index_defaultindex>
+</layout>

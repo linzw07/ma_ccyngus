@@ -1,0 +1,304 @@
+<?php if(   $configValue = Mage::getStoreConfig('webfrnd_dailydeal_options/general/module_enable', Mage::app()->getStore() )      ) : ?>
+<?php
+/*
+$page = Mage::getBlockSingleton('page/html_pager')->getCurrentPage();
+				date_default_timezone_set(Mage::getStoreConfig('general/locale/timezone'));
+				$todayDate = strftime("%Y-%m-%d",Mage::app()->getLocale()->storeTimeStamp(Mage::app()->getStore()->getId()));
+				$storeId    = Mage::app()->getStore()->getId();  
+                $product    = Mage::getModel('catalog/product');  
+                              
+                $_productCollection = $product->setStoreId($storeId)  
+                    ->getCollection()  
+                    ->addAttributeToSelect(array('name','status', 'price', 'special_price', 'small_image','required_options','special_from_date', 'special_to_date'), 'inner')
+					->joinField('stock_status','cataloginventory/stock_status','stock_status',
+						'product_id=entity_id', array(
+						  'stock_status' => Mage_CatalogInventory_Model_Stock_Status::STATUS_IN_STOCK,
+						  'website_id' => Mage::app()->getWebsite()->getWebsiteId(),
+						))
+					->addAttributeToFilter('special_price', array('gt' => 0), 'left')
+					->addAttributeToFilter('special_from_date', array('date' => true, 'to' => $todayDate))
+					->addAttributeToFilter('special_to_date', array('or'=> array(
+						0 => array('date' => true, 'from' => $todayDate),
+						1 => array('is' => new Zend_Db_Expr('null')))
+					), 'left')
+					//->setOrder('created_at', 'desc')
+					->addAttributeToSort('created_at', 'desc')
+					->addFinalPrice()
+					->addStoreFilter()
+                    ->setPageSize($this->getProductsLimit())
+					->setCurPage($page)
+					->addAttributeToFilter('status', 1)
+					->addUrlRewrite();
+					
+			Mage::getSingleton('catalog/product_status')->addVisibleFilterToCollection($this->_productCollection);	
+			Mage::getSingleton('catalog/product_visibility')->addVisibleInSearchFilterToCollection($this->_productCollection);
+            
+                               
+                $checkedProducts = new Varien_Data_Collection();
+                    foreach ($this->_productCollection as $k => $p) {
+                        $p = $p->loadParentProductIds();
+                        $parentIds = $p->getData('parent_product_ids');
+
+                        if (is_array($parentIds) && !empty($parentIds)) {
+                            if (!$checkedProducts->getItemById($parentIds[0])) {
+                                $parentProduct = Mage::getModel('catalog/product')->setStoreId($storeId)->load($parentIds[0]);
+                                if ($parentProduct->isVisibleInCatalog()) {
+                                    $checkedProducts->addItem($parentProduct);
+                                }
+                            }
+                        } else {
+                            if (!$checkedProducts->getItemById($k)) {
+                                $checkedProducts->addItem($p);
+                            }
+                        }
+                        if (count($checkedProducts) >= $this->getProductsLimit()) {
+                            break;
+                        }
+                    }
+					*/
+
+
+Mage::getSingleton('core/session', array('name' => 'frontend'));
+
+$_productCollection = Mage::getResourceModel('catalogsearch/advanced_collection')
+	->addAttributeToSelect(Mage::getSingleton('catalog/config')->getProductAttributes())
+	->addMinimalPrice()
+	->addStoreFilter();
+
+Mage::getSingleton('catalog/product_status')->addVisibleFilterToCollection($_productCollection);
+Mage::getSingleton('catalog/product_visibility')->addVisibleInSearchFilterToCollection($_productCollection);
+//date_default_timezone_set(Mage::getStoreConfig('general/locale/timezone'));
+//$todayDate = strftime("%Y-%m-%d",Mage::app()->getLocale()->storeTimeStamp(Mage::app()->getStore()->getId()));
+$todayDate = date('m/d/y h:i:s');
+$tomorrow = mktime(0, 0, 0, date('m'), date('d'), date('y'));
+$tomorrowDate = date('m/d/y h:i:s', $tomorrow);
+//echo $todayDate.'<br>'.$tomorrowDate;
+
+$_productCollection
+	->addAttributeToFilter('special_price', array('gt' => 0), 'left')
+	->addAttributeToFilter('special_from_date', array('date' => true, 'to' => $todayDate))
+//	->addAttributeToFilter('special_from_date', array('date' => true, 'from' => $todayDate))
+	->addAttributeToFilter('special_to_date', array('or'=> array(
+						0 => array('date' => true, 'from' => $tomorrowDate))
+					), 'left');
+
+?>
+
+<style>
+
+/* Daily Deal CSS */
+
+#groupbuy {
+position: relative;
+margin-top: 20px;
+font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
+}
+ 
+#groupbuy-hdr {
+
+background: #9b1818; /* Old browsers */
+background: -moz-linear-gradient(top,  #9b1818 0%, #d62a2a 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#9b1818), color-stop(100%,#d62a2a)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #9b1818 0%,#d62a2a 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #9b1818 0%,#d62a2a 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #9b1818 0%,#d62a2a 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #9b1818 0%,#d62a2a 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9b1818', endColorstr='#d62a2a',GradientType=0 ); /* IE6-9 */
+border-radius:7px 7px 0 0;
+color: white;
+}
+
+#grp-buy-name {
+font-weight: 700;
+font-size: 20px;
+text-align: center;
+padding:10px;
+}
+
+.groupbuy-retail {
+padding:10px;
+float: left;
+text-align: center;
+font-weight:700;
+font-size:13px;
+width:33%;
+}
+
+#groupbuy-countdown {
+text-align: center;
+font-weight:700;
+font-size:10px;
+margin: 5px;
+color: #c01c1d;
+}
+
+#groupbuy-countdown > span {
+	background:#000;
+	color:#FFF;
+	width:40px;
+	padding:5px 0;
+	display: inline-block;
+}
+
+#groupbuy-countdown .spn {
+	background:#ffffff;
+	color:#444444;
+	font-size:10px;	
+	
+}
+
+#groupbuy-number-sold {
+text-align: center;
+padding:5px;
+/*border:1px solid #ff00ff;*/
+}
+span#DealAmount {
+font-size: 18px;
+font-weight: bold;
+color:#FF0000;
+}
+
+.pad5{ padding:5px;}
+.clear{ clear:both;}
+</style>
+
+<script type="text/javascript">// <![CDATA[
+
+
+	function setElement(id, value) {
+    	if (value.toString().length < 2) {
+        	value = "0" + value;
+    	}
+ 	    window.document.getElementById(id).innerHTML = value;
+  	}
+
+	function countdown(then, pno) {
+		console.log(then);
+		now       = new Date();
+		diff      = new Date(then - now);
+		seconds_left  = Math.floor(diff.valueOf() / 1000);
+		
+		seconds  = Math.floor(seconds_left / 1) % 60;
+		minutes  = Math.floor(seconds_left / 60) % 60;
+		hours    = Math.floor(seconds_left / 3600) % 24;
+		days     = Math.floor(seconds_left / 86400) % 86400;
+		
+ 		setElement('countdown-days-pno' + pno, days);
+		setElement('countdown-hours-pno' + pno, hours);
+		setElement('countdown-minutes-pno' + pno, minutes);
+		setElement('countdown-seconds-pno' + pno, seconds);
+	 
+	}
+
+
+ 
+// ]]></script>
+
+
+
+
+<div class="category-products">
+	<div class="page-title"><h2 class="title"><?php echo $this->__('Deals of the day') ?></h2></div>
+
+	<?php  $_collectionSize = $_productCollection->count();  ?>
+
+	<ul class="products-grid columns4">
+		<?php  $i=0; foreach($_productCollection as $_product): ?>
+        <?php $i++; if($i!=5){?>
+        
+<?php $currentCurrencySymbol =  Mage::app()->getLocale()->currency(Mage::app()->getStore()->getCurrentCurrencyCode())->getSymbol()  ?>
+
+<?php $groupDealDateEnd = $_product->getSpecialToDate() ?>
+
+<?php $mydate = date('M d, Y 23:59:59', strtotime($groupDealDateEnd)) ?> 
+
+<?php $groupDealSpecialPrice = $_product->getSpecialPrice() ?>
+ 
+<?php $groupPrice = $_product->getPrice() ?>
+ 
+<?php $formattedPrice = number_format($groupPrice, 2) ?>
+ 
+<?php //Geting Discount Amoutn ?>
+ 
+<?php $groupDiscount = ($groupDealSpecialPrice / $groupPrice)?>
+ 
+<?php $groupDiscount = $groupDiscount * 100 ?>
+ 
+<?php $finalGroupDiscount = number_format($groupDiscount, 0)?>
+
+<?php //Getting Savings Amount ?>
+ 
+<?php $groupSavings = ($groupPrice - $groupDealSpecialPrice) ?>
+ 
+<?php //Number Left to Get Deal ?>
+ 
+<?php  $groupInvAmt = (int)Mage::getModel('cataloginventory/stock_item')->loadByProduct($_product)->getQty();?>
+ 
+<?php  $groupDealNumber =$_product->getGroupDealNumberForDeal ?>
+ 
+<?php $groupDealLeft = $groupInvAmt - $groupDealNumber ?>
+        
+        
+        
+        <li class="item span3<?php if(($i-1)%$_columnCount==0): ?> first<?php elseif($i%$_columnCount==0): ?> last<?php endif; ?>">
+            <h3 class="product-name"><a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->htmlEscape($_product->getName()) ?>"><span></span><?php echo $this->htmlEscape($_product->getName()) ?></a></h3>
+            
+            
+<?php if ( $groupDealSpecialPrice && $groupDealDateEnd && ((strtotime($mydate) - strtotime(date("M d, Y h:i:s"))) >0) ) : ?>
+
+<script>
+  setInterval(function(){countdown(new Date("<?php echo $mydate; ?>"), '<?php echo $i; ?>')},1000);
+</script>
+	<div id="groupbuy">
+
+		<div id="groupbuy-countdown">Time Left To Get Discount <?php echo 100 - $finalGroupDiscount ?>%
+            <div class="clear pad5"></div>
+			<span id="countdown-days-pno<?php echo $i;?>"></span>
+			<span id="countdown-hours-pno<?php echo $i;?>"></span>
+			<span id="countdown-minutes-pno<?php echo $i;?>"></span>
+			<span id="countdown-seconds-pno<?php echo $i;?>"> </span>
+			<div class="clear"></div>
+			<span class="spn">Days</span>
+			<span class="spn">Hours</span>
+			<span class="spn">Min</span>
+			<span class="spn">Sec</span>
+			<div class="clear"></div>
+		 </div>
+		
+        <div id="groupbuy-number-sold">Hurry: <span id="DealAmount"><?php echo $groupDealLeft ?> item(s)</span> left</div>
+		<!--<span id="how-it-wrks"><a href="/group-deal"><?php echo strtotime($groupDealDateEnd) - strtotime(date("Y-m-d h:i:s")) ?></a></span>-->
+	</div>
+
+<?php endif; ?>
+
+
+            
+            
+            
+            
+            <a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->htmlEscape($_product->getName()) ?>" class="product-image non-mobile-img">
+                <img src="<?php echo $this->helper('catalog/image')->init($_product, 'small_image')->resize(270, 217) ?>" alt="<?php echo $this->htmlEscape($_product->getName()) ?>" />
+            </a>
+    
+            <div class="block_holder">
+                <span class="price"><?php echo $this->getPriceHtml($_product, true, '-new') ?></span>
+                <div class="descr"><?php echo $_product->getShortDescription() ?></div>
+                <div class="actions">
+                    <a href="<?php echo $this->helper('checkout/cart')->getAddUrl($_product) ?> " class="icon-shopping-cart"></a>
+                    <a href="<?php echo $_product->getProductUrl() ?>" class="icon-info-sign"></a>
+                    <?php if ($this->helper('wishlist')->isAllow()) : ?>
+                    <a href="<?php  echo $this->helper('wishlist')->getAddUrl($_product) ?>" class="icon-star-empty"></a>
+                    <?php endif; ?>
+                    <?php $_compareUrl=$this->helper('catalog/product_compare')->getAddUrl($_product) ?>
+                    <a href="<?php echo $_compareUrl ?>" class="icon-retweet"></a>
+    
+                </div>
+            </div>
+        </li>
+        <?php } else {break;}?>
+        <?php endforeach ?>
+	
+    </ul>
+
+</div>
+<?php endif; ?>
