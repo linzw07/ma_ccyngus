@@ -811,7 +811,7 @@ tr.summary-details-excluded { font-style:italic; }
 
 /* Mini Products List */
 .mini-products-list .product-image { float:left; width:50px; border:1px solid #a9a9a9; }
-.mini-products-list .product-details { margin-left:60px; }
+.mini-products-list .product-details {/* margin-left:60px; */}
 .block-cart .mini-products-list .product-details .product-name,
 .block-cart .mini-products-list .product-details .nobr small { word-wrap:break-word; }
 .block-cart .mini-products-list .product-details .nobr { white-space:normal !important; }
@@ -2462,7 +2462,7 @@ tr.summary-details-excluded { font-style:italic; }
     line-height: 37px;
     text-transform: capitalize;
     display: block;
-    padding: 0 25px;
+    padding: 0 5px;
     cursor: pointer;
     
 }
@@ -2734,7 +2734,7 @@ tr.summary-details-excluded { font-style:italic; }
 .product-att{padding: 1px 10px;font-size: 13px;text-transform: capitalize; }
 #animate_sidebar{width:20px;position:fixed; top:50%;left:0%;z-index:100}
 ul.tabs-product-tab3 li {
-    font-size:25px ;
+    font-size:18px ;
 }
 /********End of customise********/
 /*=====================================================================================================================*/
